@@ -1,0 +1,22 @@
+Callbacks:
+
+1. Functions passed as arguments to other functions to be executed later.
+2. They can lead to "callback hell" when nested, making the code hard to 
+read and maintain.
+
+
+Promises:
+
+1. Objects representing the eventual completion or failure of an 
+asynchronous operation.
+2. Promises provide a more structured way to handle async code, with 
+methods like .then(), .catch(), and .finally().
+
+Why Promises Are Preferred:
+
+1. Readability: Promises flatten the nested callbacks, making the code 
+easier to read.
+2. Error Handling: Promises have a built-in mechanism to handle errors with 
+   .catch().
+3. Chaining: Promises allow for chaining multiple asynchronous operations, 
+making code more concise and manageable.

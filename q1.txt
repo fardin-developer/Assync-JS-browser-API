@@ -1,0 +1,36 @@
+The XMLHttpRequest object is a tool in JavaScript that lets you talk
+to a server without refreshing the whole webpage. It's the key part 
+of AJAX (Asynchronous JavaScript and XML), which allows web pages to 
+update content dynamically.
+
+
+1. Create an Instance: Use new XMLHttpRequest() to create a request object.
+
+2. Open a Connection: Use open() to set the HTTP method (like GET or POST) 
+and the server URL.
+
+3. Send the Request: Call send() to send the request to the server.
+
+4. Handle the Response: Use onreadystatechange or onload to process the 
+server's response, like text or XML data.
+
+5. Asynchronous: The request happens in the background, so the webpage 
+stays responsive and user-friendly.
+
+
+
+
+I am writing an exmple code below
+
+
+var xhr = new XMLHttpRequest();
+
+xhr.open("GET", "data.json", true); 
+
+xhr.onreadystatechange = function() { 
+    if (xhr.readyState === 4 && xhr.status === 200) {
+        console.log(xhr.responseText); 
+    }
+};
+
+xhr.send(); 

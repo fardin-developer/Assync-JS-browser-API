@@ -1,0 +1,16 @@
+Common Browser APIs:
+
+DOM (Document Object Model) API: Allows manipulation of HTML and XML 
+documents by accessing and modifying elements, attributes, and content.
+
+Fetch API: Modern replacement for XMLHttpRequest, providing a more powerful 
+and flexible way to make network requests.
+
+Geolocation API: Allows web applications to access the user's location 
+information.
+
+Web Storage API: Provides mechanisms like localStorage and sessionStorage 
+for storing data on the client side.
+
+Canvas API: Enables drawing and animation on a web page using the <canvas> 
+element.

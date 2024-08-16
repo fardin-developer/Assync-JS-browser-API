@@ -1,0 +1,18 @@
+localStorage:
+
+Purpose: Stores data on the client-side with no expiration time, meaning 
+the data persists even after the browser is closed and reopened.
+
+localStorage.setItem('username', 'JohnDoe');
+var name = localStorage.getItem('username');
+console.log(name); // Output: JohnDoe
+
+
+
+Purpose: Stores data for the duration of the page session. Data is lost 
+when the page is closed or refreshed.
+
+sessionStorage.setItem('sessionID', 'abc123');
+var sessionId = sessionStorage.getItem('sessionID');
+console.log(sessionId); // Output: abc123
+

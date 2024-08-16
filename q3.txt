@@ -1,0 +1,15 @@
+Same-Origin Policy:
+The same-origin policy is a security measure implemented by web browsers 
+that restricts web pages from making requests to a domain different from 
+the one that served the web page. This prevents malicious sites from 
+accessing sensitive data on other domains.
+
+Workarounds:
+
+CORS (Cross-Origin Resource Sharing): The server can include specific HTTP 
+headers (Access-Control-Allow-Origin) to allow cross-origin requests.
+JSONP (JSON with Padding): A technique that allows cross-domain requests 
+by adding a <script> tag to the page.
+
+Proxy Servers: Use a server-side script on your own domain to fetch data 
+from another domain and then serve it to the client.
